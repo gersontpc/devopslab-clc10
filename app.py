@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Esta é aula de IAC Infrastructure as Code"
+    return "Aula de IAC Infrastructure as Code com Gabriela de Lima"
