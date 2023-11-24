@@ -49,7 +49,7 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3 # https://github.com/actions/checkout
+        uses: actions/checkout@v4 # https://github.com/actions/checkout
 
       - name: Auth GCP
         uses: 'google-github-actions/auth@v1' # https://github.com/google-github-actions/auth
@@ -67,4 +67,3 @@ jobs:
             --allow-unauthenticated \
             --project ${{ vars.GOOGLE_PROJECT_ID }} \
             --format json
-
