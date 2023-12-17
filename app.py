@@ -1,8 +1,9 @@
 from flask import Flask
-import
+from flask_wtf.csrf import CSRFProtect
 
 app = Flask(__name__)
+csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Aula de IAC Infrastructure as Code com Gabriela Dias"
+    return "Laboratório Pipeline DevOps"
