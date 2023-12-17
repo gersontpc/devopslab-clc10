@@ -1,7 +1,8 @@
 from flask import Flask
+import
 
 app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Aula de IAC Infrastructure as Code com Gabriela de Lima"
+    return "Aula de IAC Infrastructure as Code com Gabriela Dias"
