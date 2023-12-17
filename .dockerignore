@@ -4,3 +4,5 @@ Dockerfile
 .gitignore
 LICENSE
 README.md
+sonar-project.properties
+test.py
